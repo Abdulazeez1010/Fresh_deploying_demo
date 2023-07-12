@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "framework": "node",
-  "name": "Deploying_demo",
   "builds": [
     {
       "src": "./index.js",
@@ -12,7 +10,7 @@
     
     {
       "src": "/(.*)",
-      "dest": "/index.js"
+      "dest": "/"
     }
   ]
 }
